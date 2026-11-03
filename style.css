@@ -1,0 +1,109 @@
+/*J’ai utilisé ChatGPT  pour m’aider
+ à réaliser la mise en forme CSS de cette page, 
+ comprendre certaines propriétés CSS et améliorer
+  progressivement son apparence. */
+
+  
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin: 20px;
+    background-color: white;
+}
+
+/* Conteneurs des formulaires */
+fieldset {
+    border: 1px solid #aaa;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+/* Formulaires */
+.form-ajout {
+    width: 280px;
+}
+
+.form-modif {
+    width: 350px;
+}
+
+/* Labels et champs */
+label {
+    display: inline-block;
+    width: 115px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 140px;
+    height: 18px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+/* Boutons */
+button {
+    cursor: pointer;
+    font-size: 11px;
+    padding: 2px 8px;
+}
+
+button[type="submit"] {
+    margin-top: 3px;
+}
+
+/* Tableau */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 650px;
+    margin-top: 12px;
+    font-size: 11px;
+    text-align: center;
+}
+
+/* En-tête */
+th {
+    background-color: #f39c12;
+    color: white;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+/* Cellules */
+td {
+    background-color: #3498db;
+    color: white;
+    padding: 4px;
+    border: 1px solid white;
+}
+
+/* Liens du tableau */
+td a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #2980b9;
+    padding: 3px 8px;
+}
+
+/* Boutons du tableau */
+td button {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+}
+
+td a:hover,
+td button:hover {
+    background-color: #1c5980;
+}
